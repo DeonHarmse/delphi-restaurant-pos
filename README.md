@@ -44,6 +44,7 @@ A Delphi-based Point of Sale (POS) system developed as a Grade 11 Practical Asse
 - Delphi (Object Pascal)
 - Windows VCL Application
 - File-based data storage
+- Access database usage and TADO used
 
 ---
 
@@ -80,7 +81,6 @@ Alternatively, users may register a new account through the registration screen 
 ## 🚀 Future Improvements
 
 - Improved user interface design
-- Database integration
 - Inventory management system
 - User authentication and permissions
 - Enhanced reporting and analytics
