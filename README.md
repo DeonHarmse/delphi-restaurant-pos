@@ -73,7 +73,7 @@ The following account can be used to access the application:
 | HeadChef | JohnMill0417 | JohnMill9016 |
 | Administrator | JackStor0683 | JackStor9945 |
 
-Alternatively, users may register a new account through the registration screen.
+Alternatively, users may register a new account through the registration screen using the owner account.
      
 ---
 
