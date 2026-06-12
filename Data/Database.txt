@@ -1,0 +1,763 @@
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Clients                                                                                       Page: 1
+
+
+Properties
+
+DateCreated:              2023/11/05 17:26:58         LastUpdated:              2023/11/05 17:26:58
+RecordCount:              103                         Updatable:                True
+
+
+
+Columns
+
+         Name                                                  Type                        Size
+
+         Name                                                  Short Text                              25
+                  AllowZeroLength:           False
+
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+
+                  DataUpdatable:             False
+                  OrdinalPosition:           0
+                  Required:                  False
+
+                  SourceField:               Name
+                  SourceTable:               Clients
+
+         Surname                                               Short Text                              25
+
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+                  OrdinalPosition:           1
+
+                  Required:                  False
+                  SourceField:               Surname
+                  SourceTable:               Clients
+
+
+         Cell_Number                                           Short Text                              10
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+
+                  OrdinalPosition:           2
+                  Required:                  False
+                  SourceField:               Cell_Number
+
+                  SourceTable:               Clients
+
+         Points                                                Long Integer                             4
+                  AllowZeroLength:           False
+
+                  AppendOnly:                False
+                  Attributes:                Fixed Size
+                  CollatingOrder:            General
+
+                  DataUpdatable:             False
+                  OrdinalPosition:           3
+                  Required:                  False
+
+                  SourceField:               Points
+                  SourceTable:               Clients
+
+         Date_Registered                                       Short Text                              10
+
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Clients                                                                                       Page: 2
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+                  OrdinalPosition:           4
+                  Required:                  False
+
+                  SourceField:               Date_Registered
+                  SourceTable:               Clients
+
+
+
+Table Indexes
+
+         Name                                     Number of
+         Index_FB5C14E0_2CE9_4FDE                 1
+
+                  Clustered:                 False
+                  DistinctCount:             103
+                  Foreign:                   False
+
+                  IgnoreNulls:               False
+                  Name:                      Index_FB5C14E0_2CE9_4FDE
+                  Primary:                   True
+
+                  Required:                  True
+                  Unique:                    True
+                  Fields:
+
+                  Cell_Number                Ascending
+
+
+
+
+
+User Permissions
+
+         admin                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
+
+
+
+
+Group Permissions
+
+         Admins
+         Users                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Menu                                                                                          Page: 3
+
+
+Properties
+
+DateCreated:              2023/11/04 17:53:49         LastUpdated:              2023/11/04 17:53:49
+RecordCount:              64                          Updatable:                True
+
+
+
+Columns
+
+         Name                                                  Type                        Size
+
+         Item_ID                                               Long Integer                             4
+                  AllowZeroLength:           False
+
+                  AppendOnly:                False
+                  Attributes:                Fixed Size
+                  CollatingOrder:            General
+
+                  DataUpdatable:             False
+                  OrdinalPosition:           0
+                  Required:                  False
+
+                  SourceField:               Item_ID
+                  SourceTable:               Menu
+
+         Item_Description                                      Short Text                              35
+
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+                  OrdinalPosition:           1
+
+                  Required:                  False
+                  SourceField:               Item_Description
+                  SourceTable:               Menu
+
+
+         Price                                                 Short Text                              10
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+
+                  OrdinalPosition:           2
+                  Required:                  False
+                  SourceField:               Price
+
+                  SourceTable:               Menu
+
+
+
+Table Indexes
+         Name                                     Number of
+
+         Index_0647EF6A_918D_4444                 1
+                  Clustered:                 False
+
+                  DistinctCount:             64
+                  Foreign:                   False
+                  IgnoreNulls:               False
+
+                  Name:                      Index_0647EF6A_918D_4444
+                  Primary:                   True
+                  Required:                  True
+
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Menu                                                                                          Page: 4
+                  Unique:                    True
+                  Fields:
+                  Item_ID                    Ascending
+
+
+
+
+
+User Permissions
+
+         admin                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
+
+
+
+
+Group Permissions
+
+         Admins
+
+         Users                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Order_Items                                                                                   Page: 5
+
+
+Properties
+
+DateCreated:              2023/11/04 17:10:01         LastUpdated:              2023/11/04 17:10:01
+RecordCount:              100                         Updatable:                True
+
+
+
+Columns
+
+         Name                                                  Type                        Size
+
+         Order_ID                                              Long Integer                             4
+                  AllowZeroLength:           False
+
+                  AppendOnly:                False
+                  Attributes:                Fixed Size
+                  CollatingOrder:            General
+
+                  DataUpdatable:             False
+                  OrdinalPosition:           0
+                  Required:                  True
+
+                  SourceField:               Order_ID
+                  SourceTable:               Order_Items
+
+         Item_ID                                               Long Integer                             4
+
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+                  Attributes:                Fixed Size
+
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+                  OrdinalPosition:           1
+
+                  Required:                  True
+                  SourceField:               Item_ID
+                  SourceTable:               Order_Items
+
+
+         Item_Quantity                                         Long Integer                             4
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+
+                  Attributes:                Fixed Size
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+
+                  OrdinalPosition:           2
+                  Required:                  False
+                  SourceField:               Item_Quantity
+
+                  SourceTable:               Order_Items
+
+
+
+Table Indexes
+         Name                                     Number of
+
+         PrimaryKey                               2
+                  Clustered:                 False
+
+                  DistinctCount:             100
+                  Foreign:                   False
+                  IgnoreNulls:               False
+
+                  Name:                      PrimaryKey
+                  Primary:                   True
+                  Required:                  True
+
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Order_Items                                                                                   Page: 6
+                  Unique:                    True
+                  Fields:
+                  Order_ID                   Ascending
+
+                  Item_ID                    Ascending
+
+
+
+
+User Permissions
+
+         admin                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
+
+
+
+
+
+Group Permissions
+
+         Admins
+         Users                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Orders                                                                                        Page: 7
+
+
+Properties
+
+DateCreated:              2023/11/04 17:21:45         LastUpdated:              2023/11/04 17:21:45
+RecordCount:              100                         Updatable:                True
+
+
+
+Columns
+
+         Name                                                  Type                        Size
+
+         Order_ID                                              Long Integer                             4
+                  AllowZeroLength:           False
+
+                  AppendOnly:                False
+                  Attributes:                Fixed Size
+                  CollatingOrder:            General
+
+                  DataUpdatable:             False
+                  OrdinalPosition:           0
+                  Required:                  True
+
+                  SourceField:               Order_ID
+                  SourceTable:               Orders
+
+         Order_Date                                            Date With Time                           8
+
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+                  Attributes:                Fixed Size
+
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+                  OrdinalPosition:           1
+
+                  Required:                  True
+                  SourceField:               Order_Date
+                  SourceTable:               Orders
+
+
+         Client_Cell_Number                                    Short Text                              13
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+
+                  OrdinalPosition:           2
+                  Required:                  True
+                  SourceField:               Client_Cell_Number
+
+                  SourceTable:               Orders
+
+
+
+Table Indexes
+         Name                                     Number of
+
+         PrimaryKey                               1
+                  Clustered:                 False
+
+                  DistinctCount:             100
+                  Foreign:                   False
+                  IgnoreNulls:               False
+
+                  Name:                      PrimaryKey
+                  Primary:                   True
+                  Required:                  True
+
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Orders                                                                                        Page: 8
+                  Unique:                    True
+                  Fields:
+                  Order_ID                   Ascending
+
+
+
+
+
+User Permissions
+
+         admin                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
+
+
+
+
+Group Permissions
+
+         Admins
+
+         Users                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Personel                                                                                      Page: 9
+
+
+Properties
+
+DateCreated:              2023/11/04 17:56:58         LastUpdated:              2023/11/04 17:56:58
+RecordCount:              12                          Updatable:                True
+
+
+
+Columns
+
+         Name                                                  Type                        Size
+
+         Name                                                  Short Text                              30
+                  AllowZeroLength:           False
+
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+
+                  DataUpdatable:             False
+                  OrdinalPosition:           0
+                  Required:                  False
+
+                  SourceField:               Name
+                  SourceTable:               Personel
+
+         Surname                                               Short Text                              30
+
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+                  OrdinalPosition:           1
+
+                  Required:                  False
+                  SourceField:               Surname
+                  SourceTable:               Personel
+
+
+         Cell_Number                                           Short Text                              10
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+
+                  OrdinalPosition:           2
+                  Required:                  False
+                  SourceField:               Cell_Number
+
+                  SourceTable:               Personel
+
+         Job_Position                                          Short Text                              13
+                  AllowZeroLength:           False
+
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+
+                  DataUpdatable:             False
+                  OrdinalPosition:           3
+                  Required:                  False
+
+                  SourceField:               Job_Position
+                  SourceTable:               Personel
+
+         Username                                              Short Text                              20
+
+
+\\labs\students$\itdeonharm4634\Documents\Embarcadero\                              Monday, 06 November 2023
+Studio\Projects\D_Harmse_PAT_2023\Win32\Debug\PAT_D
+
+Table: Personel                                                                                     Page: 10
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+                  OrdinalPosition:           4
+                  Required:                  False
+
+                  SourceField:               Username
+                  SourceTable:               Personel
+
+
+         Pass_Word                                             Short Text                              20
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+                  DataUpdatable:             False
+                  OrdinalPosition:           5
+
+                  Required:                  False
+                  SourceField:               Pass_Word
+                  SourceTable:               Personel
+
+
+
+Table Indexes
+
+         Name                                     Number of
+
+         Index_B494DC82_FA39_4064                 1
+                  Clustered:                 False
+                  DistinctCount:             12
+
+                  Foreign:                   False
+                  IgnoreNulls:               False
+                  Name:                      Index_B494DC82_FA39_4064
+
+                  Primary:                   True
+                  Required:                  True
+                  Unique:                    True
+
+                  Fields:
+                  Cell_Number                Ascending
+
+
+
+
+
+User Permissions
+
+         admin                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
+
+
+
+
+Group Permissions
+
+         Admins
+
+         Users                      Delete; Read Permissions; Set Permissions; Change Owner,
+                                     Read Definition; Write Definition; Read Data; Insert Data;
